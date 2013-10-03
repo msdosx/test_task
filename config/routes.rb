@@ -1,4 +1,5 @@
 TestTask::Application.routes.draw do
+  get "showlike/show"
   get "welcome/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -54,5 +55,7 @@ TestTask::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root :to => 'welcome#index'
+  #root :to => 'welcome#index'
+  root :to => redirect("https://api.instagram.com/oauth/authorize/?client_id=e2c6b20c18984a07875aa6cd09948f77&redirect_uri=http://localhost:3000/show&response_type=code")
+  get 'show' => 'welcome#index'
 end

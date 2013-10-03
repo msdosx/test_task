@@ -11,3 +11,6 @@
  *= require_self
  *= require_tree .
  */
+.field{
+    width:17em;
+}
