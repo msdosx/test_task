@@ -1,3 +1,8 @@
-%h1 Errors#show
-%p Find me in app/views/errors/show.html.haml
-= params[:error_description]
+.alert.alert-block.alert-danger.fade.in
+  %h4 error
+  %p
+  %p
+    =params[:error_description]
+  %p
+  %p
+    %a.btn.btn-default{href: root_path} Try again
