@@ -5,21 +5,21 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/welcome.html.haml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/errors.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/errors.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/errors/show.html.haml" afterPath="$PROJECT_DIR$/app/views/errors/show.html.haml" />
     </list>
     <ignored path="test_task.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380827006709" ignored="false" />
     <file path="/Gemfile" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380315211518" ignored="false" />
     <file path="/index.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380878268483" ignored="false" />
-    <file path="/application.html.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380875850356" ignored="false" />
+    <file path="/application.html.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380885113113" ignored="false" />
     <file path="/routes.rb" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380832130858" ignored="false" />
     <file path="/application.css" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380833588897" ignored="false" />
     <file path="/welcome_controller.rb" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380882912091" ignored="false" />
     <file path="/errors_controller.rb" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380878103040" ignored="false" />
     <file path="/show.html.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380884858379" ignored="false" />
-    <file path="/errors.html.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380884159226" ignored="false" />
+    <file path="/errors.html.haml" changelist="082ba457-7b29-4a95-b1db-cc8bb7d598a5" time="1380885124121" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +48,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/errors/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="0.15503876">
+            <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errors.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="33" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/errors.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="32" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-11.208333">
+            <state line="28" column="33" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.27807486">
               <folding />
             </state>
           </provider>
@@ -92,12 +101,12 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/errors_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.haml" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/errors.html.haml" />
         <option value="$PROJECT_DIR$/app/views/errors/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/errors.html.haml" />
       </list>
     </option>
   </component>
@@ -726,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="46" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.6657754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="16" selection-start="20" selection-end="20" vertical-scroll-proportion="0.040983606">
@@ -754,16 +756,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/errors.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/errors/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-11.208333">
+        <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="0.15503876">
+        <state line="28" column="33" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/errors.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.27807486">
           <folding />
         </state>
       </provider>
