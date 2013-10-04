@@ -1,4 +1,5 @@
 TestTask::Application.routes.draw do
+  get "errors/show"
   get "showlike/show"
   get "welcome/index"
   # The priority is based upon order of creation: first created -> highest priority.
