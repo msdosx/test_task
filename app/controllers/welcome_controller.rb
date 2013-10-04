@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    if params
+    redirect_to (errors_show_path) if !params[:error].nil?
   end
 end
